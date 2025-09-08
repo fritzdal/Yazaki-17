@@ -20,11 +20,11 @@ Always consult your local laws and regulations before proceeding. Opinions expre
 
 ## Intro
 
-Long story short I bought a "mechanics special" Toyota Tundra without a transmission temperature gauge, and wanted to monitor how cooked my transmission is without hooking up an OBD2 scan tool every drive. Sure, I could have paid for someone else to 1:1 swap a desired clusters with pre-programmed miles, but then how would I justify buying an EEPROM reader?
+Long story short I bought a "mechanics special" Toyota Tundra without a transmission temperature gauge, and wanted to monitor how cooked my transmission is without hooking up an OBD2 scan tool every drive. Sure, I could have paid for someone else to 1:1 swap a desired cluster with pre-programmed miles, but then how would I justify buying an EEPROM reader?
 
 While plenty of paid/closed-source calculators exist, information on actually decoding/encoding Yazaki-17 is sparse. Credit to "Zero Cool" for publishing an explanation of their own understanding/translations [1].
 
-The following was completed on a P9348DG cluster removed from a 2010 Toyota Tundra, containing an 93C66 pqEEPROM configured for 16-bit organization. While I am focused on second generation Tundras, a lot of this information will carry over to other vehicles using Yazaki-17 to store the odometer value. I'd recommend picking up an experimental cluster from ebay/salvage yard before bricking your car!
+The following was completed on a P9348DG cluster removed from a 2010 Toyota Tundra, containing an 93C66 EEPROM configured for 16-bit organization. While I am focused on second generation Tundras, a lot of this information will carry over to other vehicles using Yazaki-17 to store the odometer value. I'd recommend picking up an experimental cluster from ebay/salvage yard before bricking your car!
 
 ## Calculator
 
